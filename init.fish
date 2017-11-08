@@ -19,6 +19,8 @@ if not set -q abbrs_initialized
   abbr gs 'git status'
   abbr gst 'git stash'
 
+  abbr n 'nvim'
+
   echo 'Done'
 end
 
