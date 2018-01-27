@@ -22,6 +22,7 @@ if not set -q abbrs_initialized
   abbr gu 'git add --update'
 
   abbr n 'nvim'
+  abbr i 'nvim ~/Dropbox/Reference\ Backups/GTD/Inbox.txt'
 
   echo 'Done'
 end
