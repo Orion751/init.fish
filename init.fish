@@ -19,6 +19,7 @@ if not set -q abbrs_initialized
   abbr gs 'git status'
   abbr gst 'git stash'
 
+  abbr gh 'git help'
   abbr gu 'git add --update'
 
   abbr n 'nvim'
