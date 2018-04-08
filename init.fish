@@ -2,6 +2,7 @@ if not set -q abbrs_initialized
   set -U abbrs_initialized
   echo -n Setting abbreviations... 
 
+  # git abbreviations from: https://superuser.com/questions/1049368/add-abbreviations-in-fish-config
   abbr g 'git'
   abbr ga 'git add'
   abbr gb 'git branch'
@@ -19,9 +20,11 @@ if not set -q abbrs_initialized
   abbr gs 'git status'
   abbr gst 'git stash'
 
+  # More git abbreviations
   abbr gh 'git help'
   abbr gu 'git add --update'
 
+  # Quickly access nvim
   abbr n 'nvim'
   abbr i 'nvim ~/Dropbox/Reference\ Backups/GTD/Inbox.txt'
 
