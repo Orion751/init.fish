@@ -25,6 +25,8 @@ if not set -q abbrs_initialized
   abbr n 'nvim'
   abbr i 'nvim ~/Dropbox/Reference\ Backups/GTD/Inbox.txt'
 
+  abbr c 'cd ~/Documents/Code'
+
   echo 'Done'
 end
 
