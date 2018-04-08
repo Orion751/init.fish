@@ -1,8 +1,9 @@
+# Check for abbreviations and first block of git abbreviations from:
+# https://superuser.com/questions/1049368/add-abbreviations-in-fish-config
 if not set -q abbrs_initialized
   set -U abbrs_initialized
   echo -n Setting abbreviations... 
 
-  # git abbreviations from: https://superuser.com/questions/1049368/add-abbreviations-in-fish-config
   abbr g 'git'
   abbr ga 'git add'
   abbr gb 'git branch'
