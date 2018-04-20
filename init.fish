@@ -30,6 +30,7 @@ if not set -q abbrs_initialized
   abbr i 'nvim ~/Dropbox/Reference\ Backups/GTD/Inbox.txt'
 
   abbr c 'cd ~/Documents/Code'
+  abbr l 'ls -tr'
 
   echo 'Done'
 end
