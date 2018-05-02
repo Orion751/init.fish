@@ -29,6 +29,9 @@ if not set -q abbrs_initialized
   abbr n 'nvim'
   abbr i 'nvim ~/Dropbox/Reference\ Backups/GTD/Inbox.txt'
 
+  # Disable touchscreen and exit
+  abbr x 'xinput disable \'ELAN Touchscreen\'; exit'
+
   abbr c 'cd ~/Documents/Code'
   abbr l 'ls -tr'
 
